@@ -1,3 +1,13 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
 # Site settings
 title: Destined Fanatism
 email: varunwachaspati@gmail.com
@@ -8,16 +18,10 @@ url: "http://varunwachaspati.github.io" # the base hostname & protocol for your 
 twitter_username: varunwachaspati
 github_username:  varunwachaspati
 
-# Build settings
-markdown: kramdown
+paginate:            5
 
-# Dependencies
-markdown:	rdiscount
-pygments:	true
-
-# Permalinks
-permalink:	pretty
-
+# Custom vars
+version:             1.0.0
 # Server
 destination:	_gh_pages
 host:	0.0.0.0
